@@ -60,3 +60,23 @@ body {
 .btn-outline-light{
     padding:12px 28px;
 }
+/* SKILLS */
+
+#skills{
+    background:#111827;
+}
+
+#skills .card{
+    border-radius:15px;
+    transition:.3s;
+    cursor:pointer;
+}
+
+#skills .card:hover{
+    transform:translateY(-8px);
+}
+
+#skills h5{
+    color:#0f172a;
+    font-weight:600;
+}
