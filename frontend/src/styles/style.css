@@ -205,3 +205,41 @@ body {
 .contact-section p{
     color:#d1d5db;
 }
+
+
+/* FOOTER */
+
+.footer{
+    background:#020617;
+    color:white;
+    border-top:1px solid rgba(255,255,255,.08);
+}
+
+.footer h4{
+    font-weight:700;
+}
+
+.footer p{
+    color:#94a3b8;
+}
+
+.social-icons{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+}
+
+.social-icons a{
+    color:white;
+    font-size:28px;
+    transition:.3s;
+}
+
+.social-icons a:hover{
+    color:#38bdf8;
+    transform:translateY(-4px);
+}
+
+.heart{
+    color:#ef4444;
+}
