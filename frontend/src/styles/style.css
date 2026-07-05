@@ -112,3 +112,26 @@ body {
     color:#0f172a;
     font-weight:600;
 }
+
+
+/* ABOUT */
+
+.about-section{
+    background:#111827;
+    color:white;
+}
+
+.profile-img{
+    width:280px;
+    border:5px solid #38bdf8;
+    padding:6px;
+}
+
+.about-section p{
+    color:#d1d5db;
+    line-height:1.8;
+}
+
+.badge{
+    font-size:.9rem;
+}
