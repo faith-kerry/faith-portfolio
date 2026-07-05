@@ -135,3 +135,29 @@ body {
 .badge{
     font-size:.9rem;
 }
+
+
+/* PROJECTS */
+
+#projects {
+    background: #0f172a;
+    color: white;
+}
+
+.project-card {
+    background: #1e293b;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+.project-card h4 {
+    color: #38bdf8;
+}
+
+.project-card p {
+    color: #d1d5db;
+}
