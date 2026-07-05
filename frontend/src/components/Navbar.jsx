@@ -6,7 +6,7 @@ function Navbar() {
       <div className="container">
 
         <a className="navbar-brand fw-bold fs-3" href="#">
-          Faith<span className="text-info">.</span>
+          Faith Kerubo<span className="text-info">.</span>
         </a>
 
         <button

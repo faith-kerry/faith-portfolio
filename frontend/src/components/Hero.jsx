@@ -1,28 +1,39 @@
-import React from "react";
+import { Typewriter } from "react-simple-typewriter";
 
 function Hero() {
   return (
-    <section id="home" className="hero d-flex align-items-center">
+    <section id="home" className="hero">
       <div className="container">
 
-        <p className="text-info mb-2">Hello, I'm</p>
+        <p className="welcome">Hello, I'm</p>
 
-        <h1 className="display-2 fw-bold">
-          Faith Kerubo
-        </h1>
+        <h1>Faith Kerubo</h1>
 
-        <h3 className="my-3 text-light">
-          Software Engineer | Economist | Aspiring Data Analyst
+        <h3>
+          <Typewriter
+            words={[
+              "Software Engineer",
+              "Economist",
+              "Aspiring Data Analyst",
+              "AI Enthusiast"
+            ]}
+            loop={0}
+            cursor
+            cursorStyle="|"
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1800}
+          />
         </h3>
 
-        <p className="hero-text">
+        <p className="hero-description">
           Building intelligent, accessible and data-driven digital
           solutions that create real-world impact.
         </p>
 
-        <div className="mt-4">
+        <div className="hero-buttons">
 
-          <a href="#projects" className="btn btn-info me-3">
+          <a href="#projects" className="btn btn-info">
             View Projects
           </a>
 

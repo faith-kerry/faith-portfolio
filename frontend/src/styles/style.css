@@ -31,35 +31,67 @@ body {
 /* HERO SECTION */
 
 .hero{
-    min-height:100vh;
+    height:100vh;
+
     display:flex;
+
     align-items:center;
-    background:linear-gradient(
-        rgba(15,23,42,.92),
-        rgba(15,23,42,.92)
-    );
+
+    background:
+    linear-gradient(
+    rgba(0,0,0,.65),
+    rgba(0,0,0,.65)),
+    url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2000");
+
+    background-size:cover;
+
+    background-position:center;
 }
 
 .hero h1{
+
     font-size:5rem;
+
+    font-weight:700;
+
 }
 
-.hero-text{
-    max-width:600px;
-    color:#cbd5e1;
-    font-size:1.1rem;
+.hero h3{
+
+    color:#38bdf8;
+
+    margin-top:20px;
+
 }
 
-.btn-info{
-    background:#38bdf8;
-    border:none;
-    padding:12px 28px;
-    font-weight:600;
+.hero-description{
+
+    width:600px;
+
+    max-width:100%;
+
+    margin:25px 0;
+
+    color:#ddd;
+
 }
 
-.btn-outline-light{
-    padding:12px 28px;
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+
 }
+
+.welcome{
+
+    color:#38bdf8;
+
+    font-size:20px;
+
+}
+    
 /* SKILLS */
 
 #skills{
