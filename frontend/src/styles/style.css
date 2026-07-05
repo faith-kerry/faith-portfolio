@@ -27,3 +27,36 @@ body {
 .nav-link:hover {
     color: #38bdf8 !important;
 }
+
+/* HERO SECTION */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    background:linear-gradient(
+        rgba(15,23,42,.92),
+        rgba(15,23,42,.92)
+    );
+}
+
+.hero h1{
+    font-size:5rem;
+}
+
+.hero-text{
+    max-width:600px;
+    color:#cbd5e1;
+    font-size:1.1rem;
+}
+
+.btn-info{
+    background:#38bdf8;
+    border:none;
+    padding:12px 28px;
+    font-weight:600;
+}
+
+.btn-outline-light{
+    padding:12px 28px;
+}
