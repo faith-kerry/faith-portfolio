@@ -188,3 +188,20 @@ body {
 .blog-card p{
     color:#d1d5db;
 }
+
+
+
+/* CONTACT */
+
+.contact-section{
+    background:#0f172a;
+    color:white;
+}
+
+.contact-icon{
+    color:#38bdf8;
+}
+
+.contact-section p{
+    color:#d1d5db;
+}
