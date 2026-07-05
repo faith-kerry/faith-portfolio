@@ -161,3 +161,30 @@ body {
 .project-card p {
     color: #d1d5db;
 }
+
+
+/* BLOGS */
+
+.blog-section{
+    background:#111827;
+    color:white;
+}
+
+.blog-card{
+    background:#1e293b;
+    border:none;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.blog-card:hover{
+    transform:translateY(-8px);
+}
+
+.blog-card h4{
+    color:#38bdf8;
+}
+
+.blog-card p{
+    color:#d1d5db;
+}
