@@ -3,13 +3,13 @@ import { Typewriter } from "react-simple-typewriter";
 function Hero() {
   return (
     <section id="home" className="hero">
-      <div className="container">
+      <div className="container text-center">
 
-        <p className="welcome">Hello, I'm</p>
+        <p className="welcome">Hi, There I'm</p>
 
-        <h1>Faith Kerubo</h1>
+        <h1 className="display-3 fw-bold">Faith Kerubo</h1>
 
-        <h3>
+        <h3 className="typing-text">
           <Typewriter
             words={[
               "Software Engineer",
@@ -31,16 +31,14 @@ function Hero() {
           solutions that create real-world impact.
         </p>
 
-        <div className="hero-buttons">
-
-          <a href="#projects" className="btn btn-info">
+        <div className="hero-buttons justify-content-center">
+          <a href="#projects" className="btn btn-info btn-lg">
             View Projects
           </a>
 
-          <a href="#contact" className="btn btn-outline-light">
+          <a href="#contact" className="btn btn-outline-light btn-lg">
             Contact Me
           </a>
-
         </div>
 
       </div>

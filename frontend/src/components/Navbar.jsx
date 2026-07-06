@@ -6,9 +6,7 @@ function Navbar() {
       <div className="container">
 
         <a className="navbar-brand fw-bold fs-3" href="#">
-          Faith Kerubo<span className="text-info">.</span>
         </a>
-
         <button
           className="navbar-toggler"
           type="button"
