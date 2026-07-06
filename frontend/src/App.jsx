@@ -18,7 +18,7 @@ function App() {
     async function loadPortfolio() {
       try {
         const data = await getPortfolio();
-        console.log("Portfolio Data:", data);
+        
         setPortfolio(data);
       } catch (error) {
         console.error("Error loading portfolio:", error);

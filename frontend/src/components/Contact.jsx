@@ -15,22 +15,47 @@ function Contact() {
 
         <div className="row text-center">
 
+          {/* Email */}
           <div className="col-md-4 mb-4">
-            <FaEnvelope size={40} className="contact-icon"/>
+            <FaEnvelope size={40} className="contact-icon" />
             <h5 className="mt-3">Email</h5>
-            <p>kerubofaith944@gmail.com</p>
+
+            <a
+              href="mailto:kerubofaith944@gmail.com"
+              className="contact-link"
+            >
+              kerubofaith944@gmail.com
+            </a>
           </div>
 
+          {/* GitHub */}
           <div className="col-md-4 mb-4">
-            <FaGithub size={40} className="contact-icon"/>
+            <FaGithub size={40} className="contact-icon" />
             <h5 className="mt-3">GitHub</h5>
-            <p>github.com/faith-kerry</p>
+
+            <a
+              href="https://github.com/faith-kerry"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-link"
+            >
+              github.com/faith-kerry
+            </a>
           </div>
 
+          {/* LinkedIn */}
           <div className="col-md-4 mb-4">
-            <FaLinkedin size={40} className="contact-icon"/>
+            <FaLinkedin size={40} className="contact-icon" />
             <h5 className="mt-3">LinkedIn</h5>
-            <p>https://linkedin.com/in/Faith-Kerubo-047941390</p>
+
+            <a
+              href="https://www.linkedin.com/in/faith-kerubo-047941390"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-link"
+            >
+              linkedin.com/in/faith-kerubo-047941390
+            </a>
           </div>
 
         </div>
