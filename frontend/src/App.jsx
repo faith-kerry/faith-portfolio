@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -9,25 +7,9 @@ import Blogs from "./components/Blogs";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-import { getPortfolio } from "./services/portfolioService";
+import portfolio from "./portfolioData";
 
 function App() {
-  const [portfolio, setPortfolio] = useState(null);
-
-  useEffect(() => {
-    async function loadPortfolio() {
-      try {
-        const data = await getPortfolio();
-        
-        setPortfolio(data);
-      } catch (error) {
-        console.error("Error loading portfolio:", error);
-      }
-    }
-
-    loadPortfolio();
-  }, []);
-
   return (
     <>
       <Navbar />
